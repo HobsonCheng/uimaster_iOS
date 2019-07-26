@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="66M-hs-wa6" customClass="ChatVoiceIndicatorView" customModule="UIMaster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="357"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcN-9a-c62">
+                    <rect key="frame" x="85" y="73.5" width="150" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手指上滑，取消发送" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDp-2X-f4M">
+                            <rect key="frame" x="8" y="124" width="134" height="20"/>
+                            <color key="backgroundColor" red="0.50439814810000005" green="0.72885178380000004" blue="0.99789964600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="x0z-iL-1NN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RecordCancel" translatesAutoresizingMaskIntoConstraints="NO" id="wkC-tR-IQh">
+                            <rect key="frame" x="25" y="14" width="100" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MessageTooShort" translatesAutoresizingMaskIntoConstraints="NO" id="hzV-VB-XgC">
+                            <rect key="frame" x="25" y="14" width="100" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdf-ST-umP" userLabel="RecordingView">
+                            <rect key="frame" x="24" y="14" width="102" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RecordingBkg" translatesAutoresizingMaskIntoConstraints="NO" id="IhF-Zv-u9H">
+                                    <rect key="frame" x="0.0" y="0.0" width="62" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RecordingSignal001" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-ya-UUb">
+                                    <rect key="frame" x="64" y="0.0" width="38" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="hDp-2X-f4M" secondAttribute="bottom" constant="6" id="2Wx-b3-ha6"/>
+                        <constraint firstItem="hDp-2X-f4M" firstAttribute="leading" secondItem="rcN-9a-c62" secondAttribute="leading" constant="8" id="3HO-oW-xFS"/>
+                        <constraint firstAttribute="height" constant="150" id="6km-Ee-RRR"/>
+                        <constraint firstAttribute="trailing" secondItem="hDp-2X-f4M" secondAttribute="trailing" constant="8" id="MJu-Kt-Fu1"/>
+                        <constraint firstAttribute="width" constant="150" id="VLP-gd-Vcw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rcN-9a-c62" secondAttribute="bottom" constant="100" id="baA-rY-RSR"/>
+                <constraint firstItem="rcN-9a-c62" firstAttribute="centerX" secondItem="66M-hs-wa6" secondAttribute="centerX" id="ctk-lM-kcQ"/>
+                <constraint firstItem="rcN-9a-c62" firstAttribute="centerY" secondItem="66M-hs-wa6" secondAttribute="centerY" constant="-30" id="dPZ-zp-1V9"/>
+                <constraint firstItem="rcN-9a-c62" firstAttribute="centerY" secondItem="66M-hs-wa6" secondAttribute="centerY" id="mAg-8Q-P0M"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="yeS-M0-HnT"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="baA-rY-RSR"/>
+                    <exclude reference="mAg-8Q-P0M"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="cancelImageView" destination="wkC-tR-IQh" id="R5g-MS-n1N"/>
+                <outlet property="centerView" destination="rcN-9a-c62" id="uKK-NP-3d8"/>
+                <outlet property="noteLabel" destination="hDp-2X-f4M" id="VWD-jt-2K4"/>
+                <outlet property="recordingView" destination="pdf-ST-umP" id="tTG-PU-6V1"/>
+                <outlet property="signalValueImageView" destination="adZ-ya-UUb" id="Lah-ee-6gV"/>
+                <outlet property="tooShotPromptImageView" destination="hzV-VB-XgC" id="Lwq-ZL-xx6"/>
+            </connections>
+            <point key="canvasLocation" x="819" y="648.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MessageTooShort" width="100" height="100"/>
+        <image name="RecordCancel" width="100" height="100"/>
+        <image name="RecordingBkg" width="62" height="100"/>
+        <image name="RecordingSignal001" width="38" height="100"/>
+    </resources>
+</document>

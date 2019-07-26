@@ -1,0 +1,426 @@
+@font-face {
+    font-family: '汉仪旗黑';
+    src: url('../HYQiHei-50J.ttf');
+}
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.body{
+    letter-spacing: 0px;!important
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#container {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 10px
+    word-warp:break-word;
+    font-family:Arial;
+}
+a{
+    word-wrap:break-word;
+}
+.title {
+    text-align: left;
+    font-size: 20px;
+    color: #3c3c3c;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.time {
+    text-align: left;
+    font-size: 13px;
+    color: #BDBDBD;
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+
+#content {
+    color: #3c3c3c;
+    letter-spacing: 1px;
+}
+
+#content p {
+    margin: 0px 0px 15px 0px;
+}
+
+#content img {
+    display: block;
+    margin: 20px auto;
+}
+
+.ArticleDetails_1 {
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+.ArticleDetails_1 .content{
+    white-space:pre-line;
+}
+.ArticleDetails_1 .message_0 {
+    display: none;
+    margin-top: 10px;
+    border-bottom: 2px solid whitesmoke;
+    overflow: hidden;
+    border-top: 1px solid whitesmoke;
+    padding: 12px 12px 6px 12px;
+}
+.ArticleDetails_1 .message_0 .head {
+    width: 15%;
+    float: left;
+}
+.ArticleDetails_1 .message_0 .head .img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.ArticleDetails_1 .message_0 .head .img img {
+    width: 100%;
+    height: 100%;
+}
+.ArticleDetails_1 .message_0 .back {
+    text-align: right;
+    width: 25%;
+    float: right;
+}
+.ArticleDetails_1 .message_0 .name {
+    width: 60%;
+    float: right;
+}
+.ArticleDetails_1 .message_0 .time {
+    width: 60%;
+    float: left;
+    font-size: 1px;
+    color: #c4c5c5;
+}
+.ArticleDetails_1 .message_0 .content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+    font-size: 15px;
+}
+.ArticleDetails_1 .message_0 .content .pic {
+    background-color: #51a4e6;
+    text-align: center;
+    line-height: 100%;
+    border-radius: 50%;
+    float: left;
+}
+.ArticleDetails_1 .message_0 .content .atMeName {
+    color: #51a4e6;
+}
+.ArticleDetails_1 .message_0 .images {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.ArticleDetails_1 .message_0 .images .image {
+    width: 32%;
+}
+.ArticleDetails_1 .message_0 .images .image img {
+    width: 100%;
+}
+.ArticleDetails_1 .message_0 .images .block {
+    flex: 1;
+}
+.ArticleDetails_1 .message_0 .menu {
+    display: none;
+}
+.ArticleDetails_1 .message_0 .menu .option {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+.ArticleDetails_1 .message_0 .reply {
+    padding: 6px;
+    background-color: #f0f0f0;
+    width: 100%;
+    float: left;
+}
+
+.ArticleDetails_1 .message_0 .reply .reply_block {
+    font-size: 13px;
+}
+.ArticleDetails_1 .message_0 .reply .reply_block .nm {
+    color: #51a4e6;
+}
+.ArticleDetails_1 .message_0 .reply .more {
+    font-size: 15px;
+    color: #51a4e6;
+}
+.ArticleDetails_1 .message_0 .menu_2 {
+    float: right;
+    width: 45%;
+    display: flex;
+}
+.ArticleDetails_1 .message_0 .menu_2 .option_block {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    flex: 1;
+}
+.ArticleDetails_1 .body {
+    width: 90%;
+    margin: 0 auto;
+}
+.ArticleDetails_1 .body .head {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+.ArticleDetails_1 .body .admin {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.ArticleDetails_1 .body .admin .nick_name {
+    margin-top: 4px;
+    font-size: 16px;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    
+}
+.ArticleDetails_1 .body .admin .info {
+    margin-top: 4px;
+}
+.ArticleDetails_1 .body .admin .info .label {
+    color: #5a5a5a;
+    float: left;
+    font-size: 12px;
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+    height: 18px;
+    width: 40px;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 7px;
+    margin-top: 2px;
+    letter-spacing: 1px;
+}
+.ArticleDetails_1 .body .admin .info .time {
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.ArticleDetails_1 .body .admin .info .kind {
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.ArticleDetails_1 .body .admin .admin_pic {
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 16px;
+    height: 50px;
+    width: 50px;
+}
+.ArticleDetails_1 .body .admin .admin_pic img {
+    width: 100%;
+    height: 100%;
+}
+.ArticleDetails_1 .body .center .content {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.ArticleDetails_1 .body .center .photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ArticleDetails_1 .body .center .photo img {
+    width: 100%;
+}
+.ArticleDetails_1 .body .center .photo .pic_info {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.ArticleDetails_1 .foot {
+    width: 100%;
+    background-color: whitesmoke;
+}
+.ArticleDetails_1 .foot .options {
+    display: flex;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 98%;
+}
+.ArticleDetails_1 .foot .options .comment {
+    flex: 6;
+    line-height: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: white;
+    margin-right: 20px;
+    border: 1px solid #c4c5c5;
+}
+.ArticleDetails_1 .foot .options .comment .write {
+    color: #c4c5c5;
+    margin-left: 5px;
+    float: left;
+    font-size: 1px;
+    width: 16%;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.ArticleDetails_1 .foot .options .comment input::placeholder {
+    color: #c4c5c5;
+}
+.ArticleDetails_1 .foot .options .comment input {
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    background-color: rgba(1,1,1,0);
+    border: none;
+}
+.ArticleDetails_1 .foot .options .comment .face {
+    font-size: 20px;
+    color: #c4c5c5;
+}
+.ArticleDetails_1 .foot .options .pic {
+    flex: 2;
+    font-size: 24px;
+    color: #c4c5c5;
+    line-height: 28px;
+    text-align: center;
+}
+.ArticleDetails_1 .foot .options .pic2 {
+    font-size: 14px;
+    text-align: center;
+    color: #c4c5c5;
+    flex: 1;
+    line-height: 28px;
+}
+.ArticleDetails_1 .block_foot {
+    height: 50px;
+}
+.ArticleDetails_0 {
+    color: white;
+    background-color: black;
+    height: 564px;
+}
+.ArticleDetails_0 .head {
+    height: 36px;
+}
+.ArticleDetails_0 .head .pic_back {
+    font-size: 18px;
+    color: white;
+    line-height: 36px;
+}
+.ArticleDetails_0 .head .admin_pic {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.ArticleDetails_0 .head .admin_pic img {
+    width: 100%;
+    height: 100%;
+}
+.ArticleDetails_0 .head .button_edit {
+    color: white;
+    font-size: 25px;
+}
+.ArticleDetails_0 .image {
+    margin-top: 140px;
+    margin-bottom: 95px;
+    height: 200px;
+}
+.ArticleDetails_0 .image img {
+    width: 100%;
+    height: 100%;
+}
+.ArticleDetails_0 .content {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 95%;
+}
+.ArticleDetails_0 .content .text {
+    text-indent: 50px;
+    line-height: 2;
+}
+.ArticleDetails_0 .content .page {
+    float: left;
+    width: 20%;
+}
+.ArticleDetails_0 .content .page .index {
+    font-size: 23px;
+}
+.ArticleDetails_0 .content .page .count {
+    font-size: 16px;
+}
+.ArticleDetails_0 .content .text {
+    margin-top: 5px;
+}
+.ArticleDetails_0 .content .block {
+    float: left;
+    height: 5px;
+    width: 80%;
+}
+.ArticleDetails_0 .b {
+    height: 30px;
+}
+.ArticleDetails_0 .options {
+    display: flex;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 98%;
+}
+.ArticleDetails_0 .options .comment {
+    flex: 6;
+    line-height: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #5a5a5a;
+    margin-right: 20px;
+}
+.ArticleDetails_0 .options .comment .write {
+    color: #c4c5c5;
+    margin-left: 5px;
+    float: left;
+    font-size: 1px;
+    width: 16%;
+    padding-left: 5px;
+    margin-right: 8px;
+}
+.ArticleDetails_0 .options .comment input::placeholder {
+    color: #c4c5c5;
+}
+.ArticleDetails_0 .options .comment input {
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    background-color: rgba(1,1,1,0);
+    border: none;
+}
+.ArticleDetails_0 .options .comment .face {
+    font-size: 20px;
+    color: #c4c5c5;
+    margin-left: 5px;
+    line-height: 29px;
+}
+.ArticleDetails_0 .options .pic {
+    flex: 2;
+    font-size: 24px;
+    color: #c4c5c5;
+    line-height: 28px;
+    text-align: center;
+}
+.ArticleDetails_0 .options .pic2 {
+    font-size: 14px;
+    text-align: center;
+    color: #c4c5c5;
+    flex: 1;
+    line-height: 28px;
+}
+

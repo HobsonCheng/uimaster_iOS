@@ -1,0 +1,79 @@
+platform :ios, '9.0'
+
+target 'UIMaster' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+# 网络请求
+pod 'Alamofire'
+pod 'Moya'
+#pod 'Reachability'
+# 图片处理
+pod 'Kingfisher'
+# json数据缓存
+pod 'Cache'
+
+# model数据解析
+pod 'HandyJSON', '5.0.0-beta.1'
+pod 'SwiftyJSON'
+
+# 键盘
+pod 'IQKeyboardManagerSwift'
+# 约束
+pod 'SnapKit'
+# 图片浏览
+pod 'JXPhotoBrowser'
+# 加载动画
+pod 'NVActivityIndicatorView'
+# 提示框
+pod 'MBProgressHUD'
+# 刷新
+pod 'MJRefresh'
+# 表单
+pod 'Eureka'
+# 富文本
+pod 'YYText'
+# 相片选取
+pod 'TZImagePickerController'
+# 空白占位
+pod 'EmptyDataSet-Swift'
+
+#数据库
+pod 'FMDB/SQLCipher'
+pod 'Dollar'
+
+# Rx
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'NSObject+Rx'
+pod 'RxGesture'
+pod 'RxDataSources'
+
+#七牛上传
+pod 'Qiniu'
+
+
+#protobuf
+#pod 'SwiftProtobuf'
+#webscoket
+#pod 'Starscream'
+
+# 工具
+pod 'Then'
+pod 'R.swift'
+pod 'Tiercel'
+pod 'KeychainAccess'
+pod 'AMapLocation'
+# iOS与js交互
+pod 'dsBridge'
+
+# 辅助调试工具
+pod 'Reveal-SDK', :git => 'https://git.coding.net/kakukeme/Reveal-SDK.git', :configurations => ['Debug']
+pod 'Bugly'
+
+# 代码规范
+pod 'SwiftLint'
+
+
+
+end

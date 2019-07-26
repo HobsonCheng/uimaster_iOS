@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFNewsBottomBar" customModule="UIMaster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-f6-6ar" userLabel="lineView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p6-0h-b3f" userLabel="Share">
+                    <rect key="frame" x="239.5" y="5.5" width="80.5" height="34"/>
+                    <state key="normal" title="1">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" title="1">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="didTappedShareButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="GgM-at-LoT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-Vs-qKK" userLabel="Praise">
+                    <rect key="frame" x="159.5" y="5" width="80" height="34"/>
+                    <state key="normal" title="1">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" title="1"/>
+                    <connections>
+                        <action selector="didTappedPraiseButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="aRY-bF-hhf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhf-80-ImR" userLabel="Edit">
+                    <rect key="frame" x="0.0" y="5.5" width="79.5" height="34"/>
+                    <state key="normal" image="bottom_bar_edit_selected.png"/>
+                    <connections>
+                        <action selector="didTappedEditButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="JMf-GC-3eZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5h-0G-nc5" userLabel="Comment">
+                    <rect key="frame" x="79.5" y="5" width="80" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" image="bottom_bar_comment_selected.png">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTappedCommentButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="2db-8N-oAX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3p6-0h-b3f" firstAttribute="centerY" secondItem="MqX-Vs-qKK" secondAttribute="centerY" id="3i3-GV-d8R"/>
+                <constraint firstItem="MqX-Vs-qKK" firstAttribute="leading" secondItem="j5h-0G-nc5" secondAttribute="trailing" id="4IJ-hM-Ct7"/>
+                <constraint firstItem="j5h-0G-nc5" firstAttribute="leading" secondItem="Yhf-80-ImR" secondAttribute="trailing" id="8aY-1G-zeL"/>
+                <constraint firstItem="3p6-0h-b3f" firstAttribute="leading" secondItem="MqX-Vs-qKK" secondAttribute="trailing" id="EfS-Wu-ACE"/>
+                <constraint firstItem="MqX-Vs-qKK" firstAttribute="height" secondItem="3p6-0h-b3f" secondAttribute="height" id="GS7-9r-iqO"/>
+                <constraint firstItem="j5h-0G-nc5" firstAttribute="leading" secondItem="Yhf-80-ImR" secondAttribute="trailing" id="Gvc-WL-Ayp"/>
+                <constraint firstItem="j5h-0G-nc5" firstAttribute="width" secondItem="MqX-Vs-qKK" secondAttribute="width" id="I6d-Od-rgG"/>
+                <constraint firstItem="j5h-0G-nc5" firstAttribute="height" secondItem="MqX-Vs-qKK" secondAttribute="height" id="IxP-mY-Eas"/>
+                <constraint firstItem="Yhf-80-ImR" firstAttribute="width" secondItem="j5h-0G-nc5" secondAttribute="width" id="U5N-do-HPf"/>
+                <constraint firstItem="Yhf-80-ImR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VbV-we-bdj"/>
+                <constraint firstItem="Yhf-80-ImR" firstAttribute="height" secondItem="j5h-0G-nc5" secondAttribute="height" id="YBC-HF-KOY"/>
+                <constraint firstItem="Yhf-80-ImR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="e8y-hV-QvQ"/>
+                <constraint firstItem="MqX-Vs-qKK" firstAttribute="leading" secondItem="j5h-0G-nc5" secondAttribute="trailing" id="ePg-Dc-T6D"/>
+                <constraint firstItem="MqX-Vs-qKK" firstAttribute="width" secondItem="3p6-0h-b3f" secondAttribute="width" id="fgh-Oq-EEq"/>
+                <constraint firstItem="j5h-0G-nc5" firstAttribute="centerY" secondItem="Yhf-80-ImR" secondAttribute="centerY" id="peb-ck-EUA"/>
+                <constraint firstAttribute="trailing" secondItem="3p6-0h-b3f" secondAttribute="trailing" id="yHA-Rf-PiD"/>
+                <constraint firstItem="j5h-0G-nc5" firstAttribute="centerY" secondItem="MqX-Vs-qKK" secondAttribute="centerY" id="yfJ-6a-Gbh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentButton" destination="j5h-0G-nc5" id="Sg9-Nn-WJp"/>
+                <outlet property="praiseButton" destination="MqX-Vs-qKK" id="GB8-l9-SeU"/>
+                <outlet property="shareButton" destination="3p6-0h-b3f" id="M5q-f5-UJ6"/>
+            </connections>
+            <point key="canvasLocation" x="597" y="393"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bottom_bar_comment_selected.png" width="23" height="23"/>
+        <image name="bottom_bar_edit_selected.png" width="20" height="20"/>
+    </resources>
+</document>

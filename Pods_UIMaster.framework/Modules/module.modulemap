@@ -1,0 +1,6 @@
+framework module Pods_UIMaster {
+  umbrella header "Pods-UIMaster-umbrella.h"
+
+  export *
+  module * { export * }
+}

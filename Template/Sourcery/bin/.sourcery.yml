@@ -1,0 +1,7 @@
+sources:
+  - /Users/hobson/Documents/sourceCode/iOSNew/Template/Sourcery/input
+templates:
+  - /Users/hobson/Documents/sourceCode/iOSNew/Template/Sourcery/Templates
+output:
+  /Users/hobson/Documents/sourceCode/iOSNew/Template/Sourcery/output
+args:

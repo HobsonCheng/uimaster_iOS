@@ -1,0 +1,6 @@
+{% for type in types.enums%}
+{% for case in type.cases%}
+case let .{{case.name}}{% if case.hasAssociatedValue %}({% for value in case.associatedValues%}{{value.externalName}}{% if case.associatedValues.last.externalName !=  value.externalName%},{% endif %}{% endfor%}){% endif %}:
+    return .requestParameters(parameters: ["ac":"{{case.name}}","sn":"uc"{% if case.hasAssociatedValue %},{% for value in case.associatedValues%}"{{value.externalName}}":{{value.externalName}}{% if case.associatedValues.last.externalName !=  value.externalName%},{% endif %}{%endfor%}{%endif%}], encoding: URLEncoding.default)
+{% endfor %}
+{% endfor %}

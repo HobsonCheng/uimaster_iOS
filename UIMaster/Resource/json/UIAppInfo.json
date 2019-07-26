@@ -1,0 +1,487 @@
+{
+    "code": "0",
+    "msg": "",
+    "data": {
+        "appId": 10,
+        "bottomPan": {
+            "events": {},
+            "fields": {
+                "buttonImage": "",
+                "buttonStyle": 1,
+                "buttonTitle": "样式",
+                "sliderText": 1
+            },
+            "items": {},
+            "styles": {
+                "bgColor": "234,234,234,1",
+                "bgColorClose": "234,234,234,1",
+                "bgColorCover": "0,0,0,1",
+                "bgImg": "",
+                "bgImgClose": "",
+                "bgImgCover": "",
+                "bgImgMode": 0,
+                "bgImgModeClose": 0,
+                "bgImgModeCover": 2,
+                "closePosition": 1,
+                "color": "255,255,255,1",
+                "colorSelected": "84,84,84,1",
+                "fontSize": 18,
+                "fontSizeSelected": 18,
+                "heightClose": 40,
+                "opacity": 0.9,
+                "opacityClose": 1,
+                "opacityCover": 0.5,
+                "panHeight": 1,
+                "showType": 2,
+                "splitterColor": "230,230,230,1",
+                "splitterShow": 1,
+                "splitterType": "solid",
+                "splitterWidth": 1,
+                "textAlign": 1,
+                "textAlignSelected": 1
+            }
+        },
+        "buttons": {
+            "events": {},
+            "fields": {
+                "button": 1,
+                "itemList": []
+            },
+            "items": {},
+            "styles": {
+                "color": "42,42,42,1",
+                "colorSelected": "255,255,255,1",
+                "fontSize": 18,
+                "fontSizeSelected": 18,
+                "showType": 3,
+                "textAlign": 1,
+                "textAlignSelected": 1
+            }
+        },
+        "global": {
+            "events": {},
+            "fields": {},
+            "host": "b7kbmbxd.uidashi.com",
+            "items": {},
+            "pages": {
+                "ApplyFriend": "5c174e5392cb3256b136d897",
+                "Article": "5c174b6992cb3256b136d85a",
+                "GroupChat": "5c174b6a92cb3256b136d870",
+                "Login": "5c174b6a92cb3256b136d874",
+                "Person": "5c174b6992cb3256b136d84f",
+                "SearchProject": "5c4030dd92cb32154b07cdb6"
+            },
+            "styles": {},
+            "version": "4.85.1",
+            "welcome": 0
+        },
+        "groupId": 0,
+        "leftPan": {
+            "events": {},
+            "fields": {
+                "showLeft": 0
+            },
+            "items": {},
+            "styles": {
+                "bgColor": "127,127,127,1",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "leftWidth": 0.7,
+                "opacity": 0.5,
+                "showType": 2
+            }
+        },
+        "menus": {
+            "menus1545030881541": {
+                "events": {},
+                "fields": {
+                    "itemList": [
+                        "menu0",
+                        "menu1"
+                    ],
+                    "name": "menus1545030881541",
+                    "text": "请输入菜单名称",
+                    "title": "菜单"
+                },
+                "items": {
+                    "menu0": {
+                        "events": {
+                            "click": {
+                                "action": 0,
+                                "menu": "",
+                                "name": "click",
+                                "pageKey": "5c174ecf92cb3256b136d8ab",
+                                "pageMode": 0,
+                                "type": 0,
+                                "url": ""
+                            }
+                        },
+                        "fields": {
+                            "index": 0,
+                            "name": "menu0",
+                            "normalIcon": "",
+                            "selectedIcon": "",
+                            "title": "创建群组",
+                            "type": 0
+                        },
+                        "items": {},
+                        "styles": {}
+                    },
+                    "menu1": {
+                        "events": {
+                            "click": {
+                                "action": 0,
+                                "menu": "",
+                                "name": "click",
+                                "pageKey": "5c174b6a92cb3256b136d87d",
+                                "pageMode": 0,
+                                "type": 0,
+                                "url": ""
+                            }
+                        },
+                        "fields": {
+                            "index": 1,
+                            "name": "menu1",
+                            "normalIcon": "",
+                            "selectedIcon": "",
+                            "title": "创建群聊",
+                            "type": 0
+                        },
+                        "items": {},
+                        "styles": {}
+                    }
+                },
+                "styles": {
+                    "bgColor": "255,255,255,1",
+                    "bgColorSelected": "255,255,255,1",
+                    "bgImg": "",
+                    "bgImgMode": 0,
+                    "bgImgModeSelected": 0,
+                    "bgImgSelected": "",
+                    "color": "102,102,102,1",
+                    "colorSelected": "121,121,121,1",
+                    "fontSize": 15,
+                    "fontSizeSelected": 15,
+                    "heightMenus": 35,
+                    "menusStyle": 0,
+                    "opacity": 1,
+                    "opacitySelected": 0.9,
+                    "showType": 2,
+                    "splitterColor": "230,230,230,1",
+                    "splitterShow": 1,
+                    "splitterType": "solid",
+                    "splitterWidth": 1,
+                    "textAlign": 0,
+                    "textAlignSelected": 0,
+                    "widthMenus": 100
+                }
+            }
+        },
+        "modules": {
+            "events": {},
+            "fields": {},
+            "items": {},
+            "styles": {
+                "bgColor": "255,255,255,1",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "borderColor": "230,230,230,1",
+                "borderShow": 1,
+                "borderWidth": 0,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "opacity": 1,
+                "radius": 5
+            }
+        },
+        "naviBar": {
+            "events": {},
+            "fields": {
+                "leftItems": [],
+                "middle": [],
+                "rightItems": []
+            },
+            "items": {},
+            "styles": {
+                "bgColor": "64,107,198,1",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "borderColor": "255,255,255,1",
+                "borderShow": 1,
+                "borderWidth": 1,
+                "color": "255,255,255,1",
+                "fontSize": 18,
+                "heightNationbar": 40,
+                "heightNaviBar": 44,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "opacity": 1,
+                "splitterColor": "232,232,232,1",
+                "splitterShow": 1,
+                "splitterType": "solid",
+                "splitterWidth": 1,
+                "statusText": 2,
+                "textAlign": 1
+            }
+        },
+        "naviTab": {
+            "events": {},
+            "fields": {
+                "itemList": []
+            },
+            "items": {},
+            "styles": {
+                "bgColor": "255,255,255,1.0",
+                "bgColorSelected": "255,255,255,1.0",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "bgImgModeSelected": 0,
+                "bgImgSelected": "",
+                "borderColor": "255,255,255,1",
+                "borderShow": 1,
+                "borderWidth": 0,
+                "color": "42,42,42,1",
+                "colorSelected": "84,84,84,1",
+                "fontSize": 16,
+                "fontSizeSelected": 16,
+                "heightNaviTab": 40,
+                "opacity": 1,
+                "opacitySelected": 1,
+                "textAlign": 1,
+                "textAlignSelected": 1
+            }
+        },
+        "pages": {
+            "events": {},
+            "fields": {
+                "naviBarShow": 1,
+                "naviTabShow": 0
+            },
+            "items": {},
+            "styles": {
+                "bgColor": "237,237,237,1",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "opacity": 1
+            }
+        },
+        "rightPan": {
+            "events": {},
+            "fields": {
+                "showRight": 0
+            },
+            "items": {},
+            "styles": {
+                "bgColor": "127,127,127,127",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "opacity": 0.5,
+                "rightWidth": 0.7,
+                "showType": 2
+            }
+        },
+        "stateBar": {
+            "events": {},
+            "fields": {
+                "isHiddenStatusBar": 0,
+                "isLightContentStatusBar": 1
+            },
+            "items": {},
+            "styles": {
+                "color": "255,255,255,1"
+            }
+        },
+        "tabBar": {
+            "events": {},
+            "fields": {
+                "button": 1,
+                "itemList": [
+                    "tabBar0",
+                    "tabBar1",
+                    "tabBar2",
+                    "tabBar3",
+                    "tabBar4"
+                ],
+                "sliderText": 1
+            },
+            "items": {
+                "tabBar0": {
+                    "events": {
+                        "click": {
+                            "action": 0,
+                            "menu": "",
+                            "name": "click",
+                            "pageKey": "5c174b6a92cb3256b136d87e",
+                            "pageMode": 0,
+                            "type": 0,
+                            "url": ""
+                        }
+                    },
+                    "fields": {
+                        "index": 0,
+                        "name": "tabBar0",
+                        "normalIcon": "http://image.uidashi.com/FkPoqbfgUnUHN2-Gh8xBA9kR0eA5",
+                        "selectedIcon": "http://image.uidashi.com/Fsimi0_eiRzwW75wfnQZqniRG0UX",
+                        "title": "首页",
+                        "type": 1
+                    },
+                    "items": {},
+                    "styles": {
+                        "color": "84,84,84,1",
+                        "colorSelected": "27,125,175,1",
+                        "fontSize": 12,
+                        "fontSizeSelected": 12,
+                        "tabBarStyle": 0
+                    }
+                },
+                "tabBar1": {
+                    "events": {
+                        "click": {
+                            "action": 0,
+                            "menu": "",
+                            "name": "click",
+                            "pageKey": "5c174c6092cb3256b136d87f",
+                            "pageMode": 0,
+                            "type": 0,
+                            "url": ""
+                        }
+                    },
+                    "fields": {
+                        "index": 1,
+                        "name": "tabBar1",
+                        "normalIcon": "http://image.uidashi.com/FlxInALvUxSojwp-VQL_5ktsAtbq",
+                        "selectedIcon": "http://image.uidashi.com/Fu4Z7JL294kujXibksmzgX7qgtjh",
+                        "title": "发现",
+                        "type": 1
+                    },
+                    "items": {},
+                    "styles": {
+                        "color": "84,84,84,1",
+                        "colorSelected": "27,125,175,1",
+                        "fontSize": 12,
+                        "fontSizeSelected": 12,
+                        "tabBarStyle": 0
+                    }
+                },
+                "tabBar2": {
+                    "events": {
+                        "click": {
+                            "action": 0,
+                            "menu": "",
+                            "name": "click",
+                            "pageKey": "5c174c7292cb3256b136d880",
+                            "pageMode": 0,
+                            "type": 0,
+                            "url": ""
+                        }
+                    },
+                    "fields": {
+                        "index": 2,
+                        "name": "tabBar2",
+                        "normalIcon": "http://image.uidashi.com/FlLZGP9G8jmFHvUt1jSB7Ukp8r_k",
+                        "selectedIcon": "http://image.uidashi.com/FqQG7rgzc3Jh5RF1lctLAhcr-qNf",
+                        "title": "对话",
+                        "type": 1
+                    },
+                    "items": {},
+                    "styles": {
+                        "color": "84,84,84,1",
+                        "colorSelected": "27,125,175,1",
+                        "fontSize": 12,
+                        "fontSizeSelected": 12,
+                        "tabBarStyle": 0
+                    }
+                },
+                "tabBar3": {
+                    "events": {
+                        "click": {
+                            "action": 0,
+                            "menu": "",
+                            "name": "click",
+                            "pageKey": "5c174c8492cb3256b136d881",
+                            "pageMode": 0,
+                            "type": 0,
+                            "url": ""
+                        }
+                    },
+                    "fields": {
+                        "index": 3,
+                        "name": "tabBar3",
+                        "normalIcon": "http://image.uidashi.com/FjTh1ch2GZpVM4SAKKeicgP4mwuw",
+                        "selectedIcon": "http://image.uidashi.com/Fos8UNTmiL-nd6SYLVtpIyhiZBW9",
+                        "title": "资讯",
+                        "type": 1
+                    },
+                    "items": {},
+                    "styles": {
+                        "color": "84,84,84,1",
+                        "colorSelected": "27,125,175,1",
+                        "fontSize": 12,
+                        "fontSizeSelected": 12,
+                        "tabBarStyle": 0
+                    }
+                },
+                "tabBar4": {
+                    "events": {
+                        "click": {
+                            "action": 0,
+                            "menu": "",
+                            "name": "click",
+                            "pageKey": "5c174c9892cb3256b136d882",
+                            "pageMode": 0,
+                            "type": 0,
+                            "url": ""
+                        }
+                    },
+                    "fields": {
+                        "index": 4,
+                        "name": "tabBar4",
+                        "normalIcon": "http://image.uidashi.com/FtvyW7ePyZgCTS73BxVuZduGyAyG",
+                        "selectedIcon": "http://image.uidashi.com/FvYzzd1d0FYhk6kG914kMUgjWorN",
+                        "title": "我",
+                        "type": 1
+                    },
+                    "items": {},
+                    "styles": {
+                        "color": "84,84,84,1",
+                        "colorSelected": "27,125,175,1",
+                        "fontSize": 12,
+                        "fontSizeSelected": 12,
+                        "tabBarStyle": 0
+                    }
+                }
+            },
+            "styles": {
+                "bgColor": "229,229,229,1",
+                "bgColorSelected": "182,182,182,1",
+                "bgImg": "",
+                "bgImgMode": 0,
+                "bgImgModeSelected": 0,
+                "bgImgSelected": "",
+                "borderColor": "230,230,230,1",
+                "borderShow": 1,
+                "borderWidth": 1,
+                "centerButton": 2,
+                "color": "84,84,84,1",
+                "colorSelected": "27,125,175,1",
+                "fontSize": 12,
+                "fontSizeSelected": 12,
+                "heightTabBar": 49,
+                "opacity": 1,
+                "opacitySelected": 1,
+                "tabBarStyle": 0,
+                "textAlign": 1,
+                "textAlignSelected": 1
+            }
+        }
+    },
+    "key": ""
+}

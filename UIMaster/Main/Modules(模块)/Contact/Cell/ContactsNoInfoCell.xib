@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="M0n-f2-MM3" customClass="ContactsNoInfoCell" customModule="UIMaster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="481" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M0n-f2-MM3" id="6sv-pd-YHh">
+                <rect key="frame" x="0.0" y="0.0" width="443" height="81.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="各科室办公电话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMO-yu-ykp">
+                        <rect key="frame" x="30" y="46.5" width="408" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.35102011204982914" green="0.34169013313600166" blue="0.36224902849740936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vb1-Qj-cJq">
+                        <rect key="frame" x="30" y="40.5" width="408" height="1"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="koo-M2-7sG"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="办公电话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaS-8k-SRK">
+                        <rect key="frame" x="30" y="15" width="408" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gaS-8k-SRK" firstAttribute="leading" secondItem="6sv-pd-YHh" secondAttribute="leadingMargin" constant="10" id="9H9-dq-jEA"/>
+                    <constraint firstAttribute="trailing" secondItem="gaS-8k-SRK" secondAttribute="trailing" constant="5" id="EkC-iP-lTE"/>
+                    <constraint firstItem="Vb1-Qj-cJq" firstAttribute="centerY" secondItem="6sv-pd-YHh" secondAttribute="centerY" id="El9-OB-NyP"/>
+                    <constraint firstItem="AMO-yu-ykp" firstAttribute="top" secondItem="Vb1-Qj-cJq" secondAttribute="bottom" constant="5" id="FE1-tX-gqA"/>
+                    <constraint firstAttribute="trailing" secondItem="AMO-yu-ykp" secondAttribute="trailing" constant="5" id="bIA-QD-Hfe"/>
+                    <constraint firstItem="Vb1-Qj-cJq" firstAttribute="top" secondItem="gaS-8k-SRK" secondAttribute="bottom" constant="5" id="bY7-V5-iRu"/>
+                    <constraint firstItem="AMO-yu-ykp" firstAttribute="leading" secondItem="gaS-8k-SRK" secondAttribute="leading" id="fKY-Z8-dsn"/>
+                    <constraint firstItem="Vb1-Qj-cJq" firstAttribute="leading" secondItem="gaS-8k-SRK" secondAttribute="leading" id="oH1-gb-veG"/>
+                    <constraint firstAttribute="trailing" secondItem="Vb1-Qj-cJq" secondAttribute="trailing" constant="5" id="tJw-Xl-RAy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="departmentInto" destination="AMO-yu-ykp" id="fw4-vQ-ecS"/>
+                <outlet property="departmentName" destination="gaS-8k-SRK" id="6Qh-Kj-BZj"/>
+            </connections>
+            <point key="canvasLocation" x="-60.5" y="51"/>
+        </tableViewCell>
+    </objects>
+</document>

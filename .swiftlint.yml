@@ -1,0 +1,119 @@
+disabled_rules: # 禁用制定规则
+  - multiple_closures_with_trailing_closure
+
+
+opt_in_rules: # 启用指定的规则
+
+  - anyobject_protocol
+  - closure_end_indentation
+  - closure_spacing
+  - convenience_type
+  - collection_alignment
+  - contains_over_first_not_nil
+  - conditional_returns_on_newline
+  - discouraged_object_literal
+  - discouraged_optional_boolean
+  - explicit_self
+  - extension_access_modifier
+  - empty_string
+  - empty_xctest_method
+  - explicit_init
+  - fallthrough
+  - fatal_error_message
+  - first_where
+  - identical_operands
+  - implicit_return
+  - implicitly_unwrapped_optional
+  - is_disjoint
+  - joined_default_parameter
+  - last_where
+  - legacy_random
+  - literal_expression_end_indentation
+  - lower_acl_than_parent
+  - generic_type_name
+  - let_var_whitespace
+  - missing_docs
+  - modifier_order
+  - multiline_arguments
+  - multiline_function_chains
+  - multiline_literal_brackets
+  - multiline_parameters
+  - multiline_parameters_brackets
+  - number_separator
+  - nimble_operator
+  - notification_center_detachment
+  - operator_usage_whitespace
+  - overridden_super_call
+  - override_in_extension
+  - private_action
+  - private_outlet
+  - private_over_fileprivate
+  - pattern_matching_keywords
+  - prefixed_toplevel_constant
+  - prohibited_super_call
+  - protocol_property_accessors_order
+  - quick_discouraged_call
+  - quick_discouraged_focused_test
+  - quick_discouraged_pending_test
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - single_test_class
+  - sorted_imports
+  - sorted_first_last
+  - static_operator
+  - toggle_bool
+  - switch_case_on_newline
+  - unneeded_parentheses_in_closure_argument
+  - untyped_error_in_catch
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - unused_closure_parameter
+  - unused_private_declaration
+  - xct_specific_matcher
+  - yoda_condition
+  - unused_import
+
+function_parameter_count: 8
+large_tuple: 3
+type_name:
+  min_length: 2
+  max_length: 30
+line_length: 500
+cyclomatic_complexity:
+  - 30
+  - 50
+identifier_name:
+  excluded:
+    - id
+    - qq
+    - x
+    - y
+    - \w*_\w*
+    - vc
+
+type_body_length:
+  - 400 # warning
+  - 600 # error
+
+file_length:
+  - 500
+  - 1300
+
+function_body_length:
+  - 400
+  - 600
+
+custom_rules:
+  debugPrint:
+    name: Debug Print
+    message: 请使用dPrint()替代print()，防止release版本中调用打印方法造成界面卡顿
+    regex: print\s*\(\s*"\w*\s*"\)
+    severity: error
+
+
+excluded: # 忽略的
+  - Carthage
+  - Pods
+  - UIMaster/Main/Utils/R.generated.swift
+  - UIMaster/Users/build/Documents/ios/UIMaster/Base/Vendor\(第三方\)/
